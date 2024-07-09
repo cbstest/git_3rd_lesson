@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+
+    </script>
+    <h1><em>Miniproject</em></h1>
+
+    <canvas id="can">
+    </canvas>
+
+    <h3>Load Image</h3>
+    <input type="file" onchange="loadImage()" multiple="false" accept="image/*" id="fbutton" />
+
+    <h2>Choose Filter</h2>
+
+
+
+    <input type="button" id="gray" value="grayscale" onclick="gray()" />
+
+    <input type="button" id="red" value="red" onclick="red()" />
+
+    <input type="button" id="green" value="green" onclick="green()" />
+
+    <input type="button" id="rainbow" value="rainbow" onclick="rainbow()" />
+
+    <input type="button" id="doblur" value="blur" onclick="doblur()" />
+
+    <p>
+        <input type="button" id="reset" value="reset image" onclick="reset()" />
+</head>
